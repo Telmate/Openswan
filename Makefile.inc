@@ -352,7 +352,7 @@ USE_XAUTH?=true
 
 # When doing XAUTH, include PAM support as well, requires HAVE_THREADS be
 # true as well
-USE_XAUTHPAM?=false
+USE_XAUTHPAM?=true
 
 ifeq ($(USE_XAUTHPAM),true)
 HAVE_THREADS=true
